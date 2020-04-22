@@ -23,10 +23,13 @@ Understanding the relationship between disease spread and temperature is importa
    * [_MF(t)_ and Kendall's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_MF_kendall.png)
    We also include [four plots](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/deriv_mintemp_11_14.pdf) of (linear            difference rate, temperature) offset from 11 days to 14 days, with least squares lines. Colored points correspond to different cities.
    
-4. **Summary of results.**
+4. **Summary of results.** In all cases, the test correlations are mild, with absolute value < 0.15. 
+
+   * **Linear Diﬀerence Rate:** Kendall and Spearman tests suggest _N'(t)_ is possibly **positively correlated with the minimum temperature from 1-2 weeks before**, while the (less appropriate) Pearson test suggests _N'(t)_ is possibly **negatively correlated with the maximum temperature, from 0 days-2 weeks before.** All tests are evaluated with the Benjamini-Hochberg procedure, with FDR control at 0.05. Least-squares lines seem to support the above negative Pearson correlations. 
+   * **Multiplicative Factor Rate:** All correlations are very mild, with absolute value less than 0.08. Kendall and Spearman tests suggest **no correlation between this rate and any temperature variables.** Pearson’s test suggests **_MF(t)_ is negatively correlated with minimum temperature oﬀset 14 days, and with average temperature, oﬀset 14 days**. The Pearson correlation result is supported by the slope of least-squares lines.
 
 
-Again, thanks for clicking, and hope you enjoy! Constructive criticism and questions are very welcome.
+Again, thanks for clicking! Constructive criticism and questions are very welcome.
 
 
 
