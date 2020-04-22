@@ -27,9 +27,13 @@ Understanding the relationship between disease spread and temperature is importa
 
    * **Linear Diﬀerence Rate:** Kendall and Spearman tests suggest _N'(t)_ is possibly **positively correlated with the minimum temperature from 1-2 weeks before**, while the (less appropriate) Pearson test suggests _N'(t)_ is possibly **negatively correlated with the maximum temperature, from 0 days-2 weeks before.** All tests are evaluated with the Benjamini-Hochberg procedure, with FDR control at 0.05. Least-squares lines seem to support the above negative Pearson correlations. 
    * **Multiplicative Factor Rate:** All correlations are very mild, with absolute value less than 0.08. Kendall and Spearman tests suggest **no correlation between this rate and any temperature variables.** Pearson’s test suggests **_MF(t)_ is negatively correlated with minimum temperature oﬀset 14 days, and with average temperature, oﬀset 14 days**. The Pearson correlation result is supported by the slope of least-squares lines.
+   
+ 5. **Possible explanation/ future research** Our results suggest the growth rate of COVID-19 cases may be positively correlated with minimum temp. from 1-2 weeks before, and may be negatively correlated with maximum temperature overall. This suggests the highest growth rates appear when the temperature is not too low and not too high. There are many possible explanations for the 2-week delay for minimum temperature effects. **One possible explanatio is that the extreme minimum temperatures prolong the COVID-19 incubation period.** To test this hypothesis, we need reliable data on the COVID-19 incubation period (i.e. individual patient data. Date of first exposure to infected person, date of first onset of symptoms. This is not easy data to find, since the date of first exposure will often be impossible to determine.)
 
 
-Again, thanks for clicking! Constructive criticism and questions are very welcome.
+Again, thanks for clicking! Constructive criticism and questions are very welcome. 
+
+email: seaneli@rice.edu
 
 
 
