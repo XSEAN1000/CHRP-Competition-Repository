@@ -2,11 +2,9 @@
 
 Thanks for clicking on my project!
 
+Here is the final [summary](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/UPDATE-%20APRIL%2017.pdf) of my project, typed neatly for you with LaTeX.
 
-
-Please see the most recent update file, in which I use the power of LaTeX to construct a fun-to-read summary of my project!
-
-Thank you!
+Again, thanks for clicking, and hope you enjoy! Constructive criticism and questions are very welcome.
 
 
 
