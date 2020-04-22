@@ -14,15 +14,17 @@ Understanding the relationship between disease spread and temperature is importa
 
 2. **Several temperature variables.** Our data from the NOAA consists of daily temperature maximums, minimums, and averages, for several communities. We account for the **variable incubation relate/testing delay** by offsetting temperature and rate data, from 0 days to 2 weeks.
 
-3. **Multiple testing** We have two rate measurements, three temperature variables, 15 possible temperature offsets, and three correlation test statistics (Pearson, Kendall, and Spearman). **We perform one correlation test for each possible combination of rate, temperature, offset, and correlation statistic.** For each choice of rate variable, temperature variable, and correlation statistic, we regard the 15 tests (for 15 offsets) as a multiple test; we evaluate each multiple test based on the standard rule p < 0.05 and on the Benjamini-Hochberg procedure for controlling false discovery rate (q = 0.05). Here is a series of graphs summarizing the test results for:
-   * [_N'(t)_ and Spearman's test]
-   * [_N'(t)_ and Pearson's test]
-   * [_N'(t)_ and Kendall's test]
-   * [_MF(t)_ and Spearman's test]
-   * [_MF(t)_ and Pearson's test]
-   * [_MF(t)_ and Kendall's test]
+3. **Multiple testing and Regression.** We have two rate measurements, three temperature variables, 15 possible temperature offsets, and three correlation test statistics (Pearson, Kendall, and Spearman). **We perform one correlation test for each possible combination of rate, temperature, offset, and correlation statistic.** For each choice of rate variable, temperature variable, and correlation statistic, we regard the 15 tests (for 15 offsets) as a multiple test; we evaluate each multiple test based on the standard rule p < 0.05 and on the Benjamini-Hochberg procedure for controlling false discovery rate (q = 0.05). Here is a series of graphs summarizing the test results for:
+   * [_N'(t)_ and Spearman's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_LD_spearman.png)
+   * [_N'(t)_ and Pearson's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_LD_pearson.png)
+   * [_N'(t)_ and Kendall's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_LD_kendall.png)
+   * [_MF(t)_ and Spearman's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_MF_spearman.png)
+   * [_MF(t)_ and Pearson's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_MF_pearson.png)
+   * [_MF(t)_ and Kendall's test](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/result_MF_kendall.png)
    
-4. **Regression**
+  We also include [four plots](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/deriv_mintemp_11_14.pdf) of (linear difference rate, temperature) offset from 11 days to 14 days, with least squares lines. Colored points correspond to different cities.
+   
+4. **Summary of results.**
 
 
 Again, thanks for clicking, and hope you enjoy! Constructive criticism and questions are very welcome.
