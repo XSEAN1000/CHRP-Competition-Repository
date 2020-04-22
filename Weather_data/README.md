@@ -1,7 +1,9 @@
 # Weather Data
 
 
-From the [NOAA](https://w2.weather.gov/climate/)
+From the [NOAA](https://w2.weather.gov/climate/) website.
+
+
 First column: date
 2nd column: max temp
 3rd column: min temp
