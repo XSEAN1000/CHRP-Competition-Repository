@@ -3,7 +3,7 @@
 Thanks for clicking on my project!
 
 
-**Please see the detailed [summary](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/Presentation1.pdf) of my project, typed and explained neatly for you, with LaTeX.**
+**Please see the detailed [summary](https://github.com/seaneli/CHRP-Competition-Repository/blob/master/PRESENTATION.pdf) of my project, typed and explained neatly, with LaTeX.**
 
 
 ### Brief Summary:
