@@ -1,5 +1,4 @@
 # COVID-19 Spread in the U.S. and Temperature: a Statistical Analysis
-
 Thanks for clicking on my project!
 
 
@@ -35,6 +34,6 @@ Again, thanks for clicking! Constructive criticism and questions are very welcom
 
 email: seaneli@rice.edu
 
-
+EDIT 2021: minor wording edits in presentation.pdf
 
 
